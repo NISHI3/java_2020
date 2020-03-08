@@ -24,3 +24,4 @@ public class ex22 {
 //        System.out.println(s.length());
     }
 }
+

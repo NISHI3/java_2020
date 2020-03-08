@@ -4,8 +4,7 @@ import java.util.Scanner;
  * Name ex12.java
  * Description 関数定義
  */
-public class
-ex12 {
+public class ex12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("自然数を入力:");
