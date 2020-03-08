@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 /**
  * Name ex06.java
  * Description 分岐（switch）
@@ -9,7 +10,7 @@ public class ex06 {
         System.out.print("好きな国を選んでください（日本, アメリカ, ロシア, 中国）:");
         String ctr = sc.nextLine();
 
-        switch(ctr){
+        switch (ctr) {
             case "日本":
                 System.out.println("こんにちは。");
                 break;

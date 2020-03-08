@@ -11,7 +11,7 @@ public class ex09 {
         int num = sc.nextInt();
         int fact = 1;
 
-        for(int i = 1; i <= num; i++){
+        for (int i = 1; i <= num; i++) {
             fact *= i;
             System.out.println(i + "! = " + fact);
         }

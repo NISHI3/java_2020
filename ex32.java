@@ -18,7 +18,7 @@ public class ex32 {
         int preX = 0;
         int preY = 0;
 
-        for (int i=0; i<N; i++) {
+        for (int i = 0; i < N; i++) {
             int postT = sc.nextInt();
             int postX = sc.nextInt();
             int postY = sc.nextInt();

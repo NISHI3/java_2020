@@ -3,8 +3,7 @@ import java.util.Scanner;
 /**
  * @File: ex26
  * @Description: 1以上N以下の整数のうち、10進法での各桁の和がA以上B以下であるものの総和を求めてください。
- * @Input:
- * ------
+ * @Input: ------
  * N A B
  * ------
  */
@@ -16,7 +15,7 @@ public class ex27 {
         int B = sc.nextInt();
         int sum = 0;
 
-        for (int i=1; i<=N; i++) {
+        for (int i = 1; i <= N; i++) {
             int n = i;
             int digSum = 0;
             while (n > 0) {

@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 /**
  * @File: ex23
- * @Description: 野球の審判(ball/strike)
- * @Input:
- * ------
+ * @Description: 野球の審判(ball / strike)
+ * @Input: ------
  * N
  * A1
  * .
@@ -14,11 +13,12 @@ import java.util.Scanner;
 public class ex23 {
     public static int ballcount = 1;
     public static int strikecount = 1;
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
 
-        for(int i=0; i<num; i++) {
+        for (int i = 0; i < num; i++) {
             String in = sc.next();
             if (in.equals("ball")) {
                 count_ball();

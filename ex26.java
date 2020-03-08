@@ -3,8 +3,7 @@ import java.util.Scanner;
 /**
  * @File: ex26
  * @Description: 500円玉をA枚、100円玉をB枚、50円玉をC枚持っています。これらの硬貨の中から何枚かを選び、合計金額をちょうどX円にする方法は何通りありますか.
- * @Input:
- * ------
+ * @Input: ------
  * A
  * B
  * C

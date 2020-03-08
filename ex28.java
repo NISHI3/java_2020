@@ -5,8 +5,7 @@ import java.util.Scanner;
 /**
  * @File: ex28
  * @Description: N枚のカードがあり、カードにはAiという点が書かれています。A,Bの二人で皇后に取り合い、二人の点数が最大化する場合、AがBより何点多く取れるか求めなさい。
- * @Input:
- * ------
+ * @Input: ------
  * N
  * A1 A2 ... An
  * ------

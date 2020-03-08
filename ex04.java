@@ -12,9 +12,9 @@ public class ex04 {
         System.out.print("体重を入力:");
         double weight = sc.nextDouble();
 
-        double bmi = weight/(length * length);
+        double bmi = weight / (length * length);
         System.out.print("あなたのBMIは、");
-        System.out.print(String.format("%.1f",bmi));
+        System.out.print(String.format("%.1f", bmi));
         System.out.println("です。");
     }
 }

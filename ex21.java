@@ -1,10 +1,9 @@
-import java.util.*;
+import java.util.Scanner;
 
 /**
  * @File: ex21
  * @Description: aとbの咳が偶数蚊奇数か判定してください。
- * @Input:
- * ------
+ * @Input: ------
  * a b
  * ------
  */

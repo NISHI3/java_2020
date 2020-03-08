@@ -3,8 +3,7 @@ import java.util.Scanner;
 /**
  * @File: ex22
  * @Description: 0と1が3桁の数字から1がいくつあるかを求めてください。
- * @Input:
- * ------
+ * @Input: ------
  * a[0,1の３桁]
  * ------
  */
@@ -15,8 +14,8 @@ public class ex22 {
         int count = 0;
 
         // 一文字づつ”1”か判別してcountを足していく方法
-        for (int i=0; i<3; i++) {
-            if(s.charAt(i) == '1') count++;
+        for (int i = 0; i < 3; i++) {
+            if (s.charAt(i) == '1') count++;
         }
         System.out.println(count);
 

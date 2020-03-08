@@ -14,11 +14,11 @@ ex12 {
         System.out.println(fib(num));
     }
 
-    public static int fib(int x){
-        if(x == 0 || x == 1){
+    public static int fib(int x) {
+        if (x == 0 || x == 1) {
             return 1;
-        }else{
-            return fib(x-1) + fib(x-2);
+        } else {
+            return fib(x - 1) + fib(x - 2);
         }
     }
 }
