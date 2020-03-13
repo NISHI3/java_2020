@@ -15,7 +15,7 @@ public class ex18 {
         System.out.println("peach:" + hashmap.get("peach"));
 
         String previousValue = hashmap.put("apple", "リンゴ");
-        System.out.println("[9] 置換された[キー：apple]:" + previousValue);
+        System.out.println("置換された[キー：apple]:" + previousValue);
         String removedValue = hashmap.remove("peach");
 
         System.out.println("削除された[キー：peach]:" + removedValue);

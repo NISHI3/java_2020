@@ -22,6 +22,5 @@ public class ex29 {
             num.add(mochi);
         }
         System.out.println(num.size());
-        ;
     }
 }
