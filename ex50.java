@@ -3,7 +3,8 @@ import java.util.Scanner;
 /**
  * @File: ex50
  * @Description:
- * @Input: ------
+ * @Input:
+ * ------
  * N
  * S
  * ------
